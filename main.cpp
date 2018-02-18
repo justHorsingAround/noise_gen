@@ -2,7 +2,11 @@
 #include <QImage>
 #include <QPixmap>
 #include "grid.h"
+#include "randomizer.h"
+#include "diamondsquare.h"
 #include <iostream>
+#include <random>
+
 
 int main(int argc, char *argv[])
 {
@@ -23,6 +27,9 @@ int main(int argc, char *argv[])
     }
     QImage img(pixels.data(), width, heigth, QImage::Format_Grayscale8);
     img.save("H:\\DEVELOP\\cpp\\noise\\noise_gen\\test.jpg");
+    Randomizer rand;
+    DiamondSquare diamond(rand);
+
     std::cout << "ok";
 
 
