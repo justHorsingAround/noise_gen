@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     QImage img(pixels.data(), width, heigth, QImage::Format_Grayscale8);
     img.save("H:\\DEVELOP\\cpp\\noise\\noise_gen\\test.jpg");
     Randomizer rand;
-    DiamondSquare diamond(rand);
+    //DiamondSquare diamond(rand);
 
     std::cout << "ok";
 

@@ -2,6 +2,7 @@
 #define DIAMONDSQUARE_H
 
 #include "randomizer.h"
+#include <cstdlib>
 
 
 class DiamondSquare

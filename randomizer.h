@@ -1,6 +1,7 @@
 #ifndef RANDOMIZER_H
 #define RANDOMIZER_H
 
+#include <random>
 
 class Randomizer
 {

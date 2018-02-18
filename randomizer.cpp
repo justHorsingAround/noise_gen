@@ -1,6 +1,6 @@
 #include "randomizer.h"
 
-Randomizer::Randomizer(){}
+Randomizer::Randomizer();
 
 int randomizer(){
     std::random_device rd;
